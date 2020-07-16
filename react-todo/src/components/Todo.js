@@ -1,13 +1,17 @@
 import React from 'react';
+import TodoItems from './TodoItems';
+import './TodoItems.css'
 
 const Todo = () => {
     return(
-        <div
-        className='ui raised very padded text cintainer segment'
-        style={{marginTop:'80px'}}
+        <div className='todo'
+        style={{marginLeft:'600px'}}
         >
-        <h3 className='ui header'>Todo</h3>
+        <h3 className='header'>Todo</h3>
         <p>Welcome to Todo App</p>
+        <TodoItems/>
+        
+        
         </div>
     )
 

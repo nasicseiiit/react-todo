@@ -1,10 +1,11 @@
 import React from 'react';
+import './TodoItems.css';
 
 const Navbar = () => {
     return(
-        <nav className='ui raised very padded segment'>
-        <div>
-        <button className='ui button'><a href="/todo">Todo</a></button>
+        <nav className='nav'>
+        <div class="header">
+        <button class="ui inverted green button"><a href="/todo">Todo</a></button>
         </div>
         </nav>
 

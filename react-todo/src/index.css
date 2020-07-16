@@ -3,7 +3,7 @@ body{
     background-color: inherit;
     font-family: 'Times New Roman', Times, serif;
 }
-#container{
+#root{
     display: flex;
     justify-content: center;
 }
