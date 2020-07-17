@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <nav className='nav'>
         <div class="header">
-        <button class="ui inverted green button"><a href="/todo">Todo</a></button>
+        <button><a href="/todo">Todo</a></button>
         </div>
         </nav>
 

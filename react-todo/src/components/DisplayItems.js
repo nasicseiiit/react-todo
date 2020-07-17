@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-class DisplayItems extends Component {
-
+ 
+class TodoItems extends Component {
     constructor(props) {
         super(props);
      
@@ -9,8 +9,7 @@ class DisplayItems extends Component {
       delete(key) {
         this.props.delete(key);
       }
-
-      createTasks(item) {
+    createTasks(item) {
         return <li onClick={() => this.delete(item.key)} 
                     key={item.key}>{item.text}</li>
       }
@@ -27,4 +26,4 @@ class DisplayItems extends Component {
   }
 };
  
-export default DisplayItems;
+export default TodoItems;
