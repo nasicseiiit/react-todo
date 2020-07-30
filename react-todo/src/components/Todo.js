@@ -7,7 +7,7 @@ const Todo = () => {
         <div className='todo'
         style={{marginLeft:'600px'}}
         >
-        <h3 className='header'>Welcome to Todo App</h3>
+        <h1 className='header'>Welcome to Todo App</h1>
         <TodoItems/>
         
         

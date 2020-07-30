@@ -1,5 +1,4 @@
 import React from 'react';
-import './TodoItems.css';
 
 const Navbar = () => {
     return(

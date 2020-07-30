@@ -1,50 +1,26 @@
- .todo {
-     padding: 40px;
-     margin-right: 400px;
-    color: chartreuse;
-    background-color: #2e9990;
- }
- .todoListMain .header input {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #FFF;
-    width: 165px;
+.todo {
+    padding: 40px;
+    margin-right: 330px;
+   color: chartreuse;
+   background-color: #2e9990;
+   text-align: center;
+}
+
+html, body {
+    height: 100%;
+    color: #61DAFB;
+    background: #2D2D2D;
   }
-  .todoListMain .header button {
-    padding: 10px;
-    font-size: 16px;
-    margin: 10px;
-    margin-right: 0px;
-    background-color: #0066FF;
-    color: #FFF;
-    border: 2px solid #0066FF;
-  }
-  .todoListMain .header button:hover {
-    background-color: #003399;
-    border: 2px solid #003399;
-    cursor: pointer;
-  }
-  .todoListMain .theList {
-    list-style: none;
-    padding-left: 0;
-    width: 250px;
-  } 
-  .todoListMain .theList li {
-    position: relative;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
-  color: #333;
-  background-color: rgba(255,255,255,.5);
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 15px;
-  transition: background-color .2s ease-out;
   
+  h1 {
+    margin: 25px 15px 0 0 ;
+    text-align: center;
   }
-  .todoListMain .theList li:hover {
-    background-color: pink;
-    cursor: pointer;
+  
+  #main {
+    width: 400px;
+    margin-right: 200px;
+    color: rgb(185, 48, 7);
+    text-align: center;
   }
-  ul.theList {
-    padding: 0;
-  }
+  
